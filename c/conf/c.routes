@@ -1,0 +1,5 @@
+GET  /c1  controllers.c.C1.get
+POST /c1  controllers.c.C1.save
+
+GET  /c2  controllers.c.C2.get
+POST /c2  controllers.c.C2.save

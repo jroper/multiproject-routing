@@ -1,0 +1,13 @@
+@(message: String)
+
+@main("Welcome to Play") {
+
+    <h1>@message</h2>
+
+    <ul>
+        <li>@controllers.a.routes.A1.get</li>
+        <li>@controllers.b.routes.B1.get</li>
+        <li>@controllers.c.routes.C1.get</li>
+    </ul>
+}
+

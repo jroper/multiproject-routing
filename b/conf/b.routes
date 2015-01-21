@@ -1,0 +1,7 @@
+GET  /b1  controllers.b.B1.get
+POST /b1  controllers.b.B1.save
+
+GET  /b2  controllers.b.B2.get
+POST /b2  controllers.b.B2.save
+
+-> /a  a.Routes
